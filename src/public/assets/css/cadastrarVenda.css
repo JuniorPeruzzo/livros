@@ -1,0 +1,134 @@
+@import "./style.css";
+
+.sale_fields {
+	display: grid;
+	grid-gap: 40px;
+}
+
+.sale_fields label {
+	font-weight: bold;
+}
+
+.sale_fields span {
+	color: rgb(213, 7, 7);
+}
+
+.sale_fields__customerName {
+	width: 50%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.sale_fields__date {
+	width: 30%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.sale_fields__selectProduct {
+	width: 30%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.sale_fields__selectProduct:hover {
+	cursor: pointer;
+}
+
+.sale_fields__productsTable table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sale_fields__productsTable th,
+.sale_fields__productsTable td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.td__input {
+	width: 100%;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.sale_fields__deleteProduct {
+	background-color: #f44336;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.sale_fields__newProduct {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.sale_fields__selectProduct {
+	width: 50%;
+}
+
+.sale_fields__addProduct {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.sale_fields__addProduct:hover {
+	background-color: #0056b3;
+}
+
+.sale_fields__values {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.sale_fields__subtotal,
+.sale_fields__discount,
+.sale_fields__totalPrice {
+	width: 20%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.sale_buttons {
+	text-align: right;
+}
+
+.sale_buttons button {
+	background-color: #4f99ef;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 200px;
+}
+
+.sale_buttons .sale_cancel {
+	background-color: #ccc;
+	margin-right: 10px;
+}
+
+.sale_buttons .sale_cancel a {
+	text-decoration: none;
+	color: #fff;
+}

@@ -1,0 +1,76 @@
+@import "./style.css";
+
+.fields {
+	display: grid;
+	grid-gap: 20px;
+}
+
+.fields label {
+	font-weight: bold;
+}
+
+.fields span {
+	color: rgb(213, 7, 7);
+}
+
+.fields__div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.field__description {
+	width: 90%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.field__name {
+	width: 40%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.field__situation {
+	width: 20%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.field__unit,
+.field__price,
+.field__stock {
+	width: 20%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.buttons {
+	text-align: right;
+}
+
+.buttons button {
+	background-color: #4f99ef;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.fields button.cancel {
+	background-color: red;
+	margin-right: 10px;
+}
+
+.fields button a {
+	text-decoration: none;
+	color: #fff;
+}

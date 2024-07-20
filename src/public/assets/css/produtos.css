@@ -1,0 +1,151 @@
+@import "./style.css";
+
+.filters {
+	margin-top: 10px;
+	display: flex;
+}
+
+.filter__name {
+	width: 200px;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.filter__situation,
+.filter__orderBy {
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.filter__button {
+	padding: 7px;
+	background-color: #4f99ef;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.register {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.register__newProduct {
+	padding: 10px;
+	background-color: #4f99ef;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.register__newProduct a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.register__deleteProduct {
+	padding: 10px;
+	background-color: red;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.product__list {
+	margin-top: 20px;
+}
+
+table {
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px;
+}
+
+th,
+td {
+	border-bottom: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+	width: 40px;
+	max-width: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+td,
+tr input {
+	width: 40px;
+	max-width: 40px;
+}
+
+.product_name {
+	width: 300px;
+	max-width: 300px;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.select__product,
+.select__products,
+.tr_products {
+	cursor: pointer;
+}
+
+.pagination {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.pagination ul {
+	padding: 0;
+	display: inline-block;
+}
+
+.pagination li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.pagination a {
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 5px;
+	transition: background-color 0.2s;
+}
+
+.pagination a:hover {
+	cursor: pointer;
+}
+
+.pagination .prev,
+.pagination .next {
+	background-color: #333;
+}
+
+.pagination .page-number {
+	border: none;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 5px;
+	transition: background-color 0.2s;
+	background-color: #ccc;
+}
+
+.pagination .page-number:hover {
+	background-color: #4f99ef;
+	cursor: pointer;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover {
+	background-color: #555;
+}
